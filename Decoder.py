@@ -13,13 +13,12 @@ def restart_program():
 
 
 # Ask the user which type of encoding
-
 print ("\n")
 
+# Store the type of encoding
 answer = raw_input("What type of encoding do you have? \n 1 = Base64 \n 2 = Hex \n 3 = URL Encoding \n > ")
 
 # Run the function that corresponds to the type of encoding using conditional statements
-
 if answer == "1":
 	sixtyFour = raw_input("Please paste encoded string: ")
 	print ("\n Your clear text string is: \n")
